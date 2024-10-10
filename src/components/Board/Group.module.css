@@ -1,0 +1,40 @@
+.group {
+    min-width: max(20%,273.59px); 
+    display: flex; 
+    flex-direction: column;
+    gap: 2.75%; 
+}
+
+.group__header {
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 2.5%; 
+}
+
+.group__information {
+    display: flex;
+    align-items: center; 
+    gap: 15%; 
+}
+
+.group__title {
+    white-space: nowrap;
+}
+
+.group__count {
+    color: gray; 
+}
+
+.group__actions > svg {
+    margin-left: max(1vh,9px); 
+    color: dimgray; 
+    cursor: not-allowed; 
+    font-size: larger; 
+    height: 15.6px; 
+}
+
+.group__tickets {
+    display: flex;
+    flex-direction: column; 
+    gap: 1vh;
+}

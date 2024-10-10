@@ -1,0 +1,37 @@
+.controls {
+    background: #fefffe;
+    height: max(
+        6vh,
+        54px
+    );
+    display: flex;
+    align-items: center;
+}
+
+.controls__icon {
+    color: dimgray;
+    font-size: large;
+}
+
+.controls button {
+    margin-left: max(
+        2.5%,
+        36px
+    );
+    box-shadow: 0 0 5px 1px lightgray; 
+    font-size: inherit;
+    border-radius: 5px; 
+    border: 1px solid lightgray; 
+    background: #fefffe; 
+    display: flex; 
+    font-weight: inherit; 
+    transition: background 0.3s ease;
+    align-items: center;
+    gap: 5%;
+    padding: 0.125% 0.375%;
+    cursor: pointer; 
+}
+
+.controls button:hover {
+    background: #e8e8e8;
+}

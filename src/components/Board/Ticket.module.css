@@ -1,0 +1,58 @@
+.ticket {
+    border: 1px solid lightgray; 
+    background: #fefffe; 
+    border-radius: 7.5px; 
+    box-shadow: 0 0 7.5px 1.5px lightgray; 
+    padding: 0 5%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly;
+    height: 10vh;
+    min-height: 92px;
+}
+
+.ticket__id-and-user {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.ticket__id {
+    color: gray; 
+}
+
+.ticket__status-and-title {
+    display: flex; 
+    gap: 1.75%; 
+}
+
+.ticket__title {
+    overflow: hidden;
+    display: -webkit-box; 
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.ticket__priority-and-tag {
+    display: flex;
+    gap: 2.25%;
+}
+
+.ticket__priority-and-tag > div {
+    border: 1px solid whitesmoke; 
+    padding: 1%; 
+    border-radius: 5px;
+    align-items: center;
+}
+
+.ticket__tag {
+    color: gray;
+    display: flex; 
+    gap: 3%; 
+    white-space: nowrap; 
+    font-size: smaller; 
+}
+
+.ticket__bullet {
+    color: silver; 
+}

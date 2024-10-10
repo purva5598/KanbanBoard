@@ -1,0 +1,38 @@
+.menu {
+    position: absolute;
+    left: 36px;
+    top: 47px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid lightgray;
+    background: #f8f8fa;
+    border-radius: 8px;
+    box-shadow: 0 0 8px lightgray;
+    width: 240px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.menu div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu label {
+    color: gray;
+}
+
+.menu select {
+    border-radius: 5px;
+    background: white;
+    border: 1px solid lightgray;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.menu select:hover {
+    background: #e8e8e8;
+}
